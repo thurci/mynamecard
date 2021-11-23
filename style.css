@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+    body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("assets/pexels-dids-3527786.jpg") no-repeat center center fixed;
+  background-size: cover;
+    }
+#my-name-card {
+  width: 85%;
+  height: 88%;
+  max-width: calc(100vw-10px);
+  max-height: calc(100vh-10px);
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 4px;
+  padding: 50px;
+}
+
+
+img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin:0 auto;
+}
+
+h1, h2, #content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1 {  
+    font-size: 4.2em;
+    letter-spacing: 10px;
+    padding-bottom: 35px; !important
+}
+h2 {   
+    font-size: 2.8em;
+    letter-spacing: 5px;
+}
+
+#head {
+    width:  100%;
+    text-align: center;
+}
+
+#content {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    padding-top: 100px; !important
+}
+
+
+#content ul {
+    list-style-type: none;
+}
+#content li {
+    display: inline;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#content ul li i {
+    font-size: 42px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#line-1, #line-2 {
+    background-color: white;
+    height: 2px;
+    margin: 15px auto;
+}
+
+#line-1 {
+    width: 70%;
+}
+
+#line-2 {
+    width: 45%;
+}
