@@ -18,10 +18,10 @@
   background-size: cover;
     }
 #my-name-card {
-  width: 85%;
-  height: 88%;
-  max-width: calc(100vw-10px);
-  max-height: calc(100vh-10px);
+  width: 800px;
+  height: 600px;
+  max-width: calc(100vw - 10px);
+  max-height: calc(100vh - 10px);
   background-color:rgba(0,0,0,0.5);
   border-radius: 4px;
   padding: 50px;
@@ -29,8 +29,8 @@
 
 
 img {
-        width: 200px;
-        height: 200px;
+        width: 125px;
+        height: 125px;
         border-radius: 50%;
         margin:0 auto;
 }
@@ -40,12 +40,12 @@ h1, h2, #content {
     padding-bottom: 25px;
 }
 h1 {  
-    font-size: 4.2em;
+    font-size: 2.2em;
     letter-spacing: 10px;
     padding-bottom: 35px; !important
 }
 h2 {   
-    font-size: 2.8em;
+    font-size: 1.4em;
     letter-spacing: 5px;
 }
 
@@ -59,7 +59,6 @@ h2 {
     text-align: center;
     font-size: 1.8em;
     letter-spacing: 3px;
-    padding-top: 100px; !important
 }
 
 
@@ -68,12 +67,12 @@ h2 {
 }
 #content li {
     display: inline;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #content ul li i {
-    font-size: 42px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     padding-left: 10px;
